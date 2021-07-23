@@ -21,7 +21,7 @@ export const Contact = () => {
             {socialLinks.map((item) => {
               const { id, url, icon } = item;
               return (
-                <a href={url} key={id} target="_blank">
+                <a href={url} key={id} target="_blank" rel="noreferrer">
                   {icon}
                 </a>
               );

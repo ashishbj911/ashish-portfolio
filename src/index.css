@@ -84,6 +84,9 @@ p {
   margin: auto;
   bottom: -3px;
 }
+.description{
+  font-size:1.2rem;
+}
 .btn {
   background: var(--main-body-color);
   color: var(--main-body-light-color);

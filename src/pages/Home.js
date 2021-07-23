@@ -15,7 +15,7 @@ export const Home = () => {
     <Wrapper>
       <div style={{ background: `url(${bg})`, backgroundSize: "cover" }}>
         <div className="container">
-          <div className="hero-section text-center">
+          <div className="section hero-section text-center">
             <div className="user-img">
               <img src={user} alt="author" />
             </div>
@@ -62,7 +62,7 @@ const Wrapper = styled.main`
     height: 200px;
     margin: -3rem auto 0;
     border-radius: 50%;
-    border: 10px solid #fff;
+    border: 8px solid rgb(255 255 255 / 15%);
   }
   .user-img > img {
     width: 100%;
