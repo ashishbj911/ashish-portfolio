@@ -332,7 +332,7 @@ export const data = [
   {
     id: 56,
     image: "images/portfolio/56.png",
-    url: "https://newfbclone.socialnetworking.solutions/",
+    url: "https://shopcontra.com/",
     category: "Social Engine",
   },
   {
