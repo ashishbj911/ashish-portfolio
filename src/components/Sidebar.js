@@ -6,10 +6,10 @@ import {FaTimes} from "react-icons/fa"
 import { useAppContext } from "../context";
 
 export const Sidebar = () => {
-  const {closeSidebar,sidebar} = useAppContext()
+  const {closeSidebar,isSidebarOpen} = useAppContext()
   return (
     <Wrapper>
-      <div className={sidebar ? "sidebar sidebar-active" : "sidebar"}>
+      <div className={isSidebarOpen ? "sidebar sidebar-active" : "sidebar"}>
       <button className="close-sidebar" onClick={closeSidebar}><FaTimes/></button>
         <div className="nav-links">
           {links.map((item) => {
